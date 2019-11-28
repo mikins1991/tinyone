@@ -1,0 +1,119 @@
+/* Спецификация */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    font-weight: 400;
+}
+
+.title {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.title___main {
+    font-size: 32px;
+}
+/* первый экран */
+header {
+    padding-top: 57px;
+    padding-bottom: 105px;
+    background: #fcdb00;
+    color: #010101;
+
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 57px;
+
+}
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #555555;
+    width: 400px;
+}
+.icons {
+
+}
+
+.icons__item {
+margin-right: 30px;
+}
+
+.icons__item a {
+    color: black;
+    font-size: 42px;
+    transition: all 0.3 ease;
+}
+
+.icons__item a:hover {
+    color: rgb(173, 16, 152);
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
+
+/* второй   экран */
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #010101;
+}
+.feature__text {
+    color: #898989;
+}
+
