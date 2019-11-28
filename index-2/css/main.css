@@ -133,7 +133,8 @@ margin-right: 30px;
 }
 
 .form {
-
+    text-align: center;
+    
 }
 
 .form__input {
@@ -142,6 +143,7 @@ margin-right: 30px;
     border-radius: 5px;
     width: 580px;
     padding: 10px 0;
+    padding-left: 15px;
 
 }
 
@@ -156,4 +158,19 @@ margin-right: 30px;
     width: 120px;
     border: 0;
     padding: 10px 0;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.footer {
+    background: black;
+    padding: 50px 0 94px;
+
+}
+.credite {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 185px;
+    margin: 0 auto;
 }
