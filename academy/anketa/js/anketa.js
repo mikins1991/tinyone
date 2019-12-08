@@ -25,4 +25,4 @@ let pension = (sex === 'мужчина' && age <= 63 || sex === 'женщина'
 
 alert(`Ваше ФИО: ${surname} ${name} ${lastname}\nВаш возраст в годах: ${age}\nВаш возраст в днях: ${age * 365}\nЧерез 5 лет Вам будет: ${+age + 5}\nВаш пол: ${sex}\nВы на пенсии: ${pension}`);
 
-console.log('hello');
+console.log('hello')
